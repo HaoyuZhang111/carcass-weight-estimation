@@ -1,1 +1,2 @@
-A deep learning-based system for contactless estimation of beef carcass weight from live cattle images using dual-view (top and side) visual analysis.
+python train.py --data_dir ./data --tensorboard tf_log
+python test.py --data_dir ./data --resume ./checkpoint/xxx.pth
